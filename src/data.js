@@ -2,8 +2,9 @@ export const projectsData = [
   {
     id: 1,
     title: "Project One",
-    description: "Description for project one.",
-    image: "path/to/image1.jpg"
+    description: "Adding travel places",
+    image: "home.png",
+    liveLink: "https://delta-demo-4-wvja.onrender.com/listings"
   },
   {
     id: 2,
