@@ -11,8 +11,9 @@ export const projectsData = [
     id: 2,
     title: "Project Two",
     description: "Description for project two.",
-    image: "path/to/image2.jpg",
-    category: "ui/ux"
+    image: "Screenshot 2026-06-28 184257.png",
+    category: "https://flipkart-ten-phi.vercel.app/",
+    liveLink: "https://flipkart-ten-phi.vercel.app/"
   },
   {
     id: 3,
