@@ -345,7 +345,7 @@ const Contact = () => {
     },
     {
       title: "Location",
-      text: "New York, United States",
+      text: "India, Maharashtra, Buldhana",
       icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
         <circle cx="12" cy="10" r="3" />
@@ -355,7 +355,6 @@ const Contact = () => {
   
   const socialLinks = [
     { icon: <FaGithub />, url: "https://github.com/" },
-    { icon: <FaTwitter />, url: "https://twitter.com" },
     { icon: <FaLinkedinIn />, url: "https://linkedin.com" },
     { icon: <FaInstagram />, url: "https://www.instagram.com/"},
   ];
@@ -468,12 +467,13 @@ const Contact = () => {
               }}
             >
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1620292566221!5m2!1sen!2s" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.2184890123456!2d76.2595453!3d19.9458014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bda7ad1ee806b93%3A0xc655684f7c76ab8b!2sJambhora%2C%20Maharashtra%20443308!5e0!3m2!1sen!2sin!4v1234567890" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
                 allowFullScreen="" 
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
                 title="Location Map"
               ></iframe>
             </motion.div>

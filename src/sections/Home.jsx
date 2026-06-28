@@ -268,7 +268,7 @@ const Home = () => {
   
   const titleText = "Hello, I'm";
   const nameText = "Shubham kharat";
-  const roleText = "Creative Developer";
+  const roleText = "Full Stack Developer";
   
   return (
     <HomeSection id="home" ref={ref}>

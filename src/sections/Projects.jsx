@@ -269,7 +269,7 @@ const Projects = ({ setSelectedProject }) => {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
   
   // Filters
-  const filters = ["all", "web", "mobile", "ui/ux"];
+  const filters = ["all", "web", "ui/ux"];
   
   // Filter projects
   const filteredProjects = activeFilter === "all" 

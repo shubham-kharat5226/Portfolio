@@ -244,24 +244,24 @@ const About = () => {
   });
   
   const skills = {
-    frontend: ["HTML5", "CSS3/SASS", "JavaScript", "TypeScript", "React", "Vue.js", "Next.js", "Framer Motion"],
-    backend: ["Node.js", "Express", "Python", "Django", "PHP", "Laravel", "GraphQL", "RESTful APIs"],
-    tools: ["Git", "Docker", "Webpack", "Jest", "CI/CD", "Figma", "Adobe XD", "VS Code"]
+    frontend: ["HTML5", "CSS3/SASS", "JavaScript"],
+    backend: ["Node.js", "Express", "MongoDB", "React", "RESTful APIs"],
+    tools: ["Git", "VS Code"]
   };
   
   const timeline = [
     {
-      date: "2023 - Present",
-      title: "Senior Full Stack Developer",
-      description: "Led development of enterprise applications utilizing React, Node.js, and GraphQL. Mentored junior developers and implemented CI/CD pipelines for streamlined deployments."
+      date: "2026 - Present",
+      title: "Full Stack Web Developer",
+      description: "Actively building personal projects and expanding my knowledge of React, Node.js, and modern web design principles to prepare for a professional role."
     },
     {
-      date: "2020 - 2023",
-      title: "Full Stack Developer",
-      description: "Designed and developed responsive web applications, focusing on performance optimization and user experience. Collaborated in agile teams to deliver high-quality software solutions."
+      date: "2025 - 2026",
+      title: "Backend Developer",
+      description: "Backend Developer skilled in building APIs, managing databases, and developing secure, scalable server-side applications."
     },
     {
-      date: "2018 - 2020",
+      date: "2024 - 2025",
       title: "Frontend Developer",
       description: "Created engaging user interfaces and interactive experiences using modern JavaScript frameworks. Worked closely with designers to implement pixel-perfect layouts."
     }
